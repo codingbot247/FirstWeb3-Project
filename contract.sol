@@ -10,7 +10,7 @@ contract MoodDiary{
         mood = _mood;
     }
     
-    //creating a function the reads the mood from the smart contract
+    //creating a function that reads the mood from the smart contract
     function getMood() public view returns(string memory){
         return mood;
     }
